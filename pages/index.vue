@@ -1,7 +1,7 @@
 <template>{{ count }}</template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component'
+import { Vue, Options, setup } from 'vue-class-component'
 
 import { Emit } from 'vue-property-decorator'
 
