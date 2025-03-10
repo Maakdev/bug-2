@@ -20,6 +20,8 @@ export default class Counter extends Vue {
     return 'TEST'
   }
 
+  // meta = setup(() => definePageMeta({ layout: 'admin' }))
+
   // The behavior in class is the same as the current
   count = 0
 
